@@ -1,4 +1,3 @@
-// Argent.js
 import Possession from "./Possession.js";
 
 export default class Argent extends Possession {
