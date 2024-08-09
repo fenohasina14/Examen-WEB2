@@ -7,4 +7,5 @@ Bienvenue dans le projet d'examen de **WEB 2** ! Ce projet est dédié à l'expl
 ## 📁 Code Principal
 
 Le code principal du projet se trouve dans le fichier suivant :
-
+    vite-project\src\App.jsx
+Le seul problème est que je n'ai pas pu importer les node modules
