@@ -42,38 +42,38 @@
 }
 
 .custom-table {
-  border: 2px solid #000; /* Bordure solide noire */
-  background-color: #d4edda; /* Couleur de fond verte pâle */
+  border: 2px solid #000; 
+  background-color: #d4edda; 
   width: 100%;
   border-collapse: collapse;
 }
 
 .custom-table th,
 .custom-table td {
-  border: 2px solid #000; /* Bordure solide noire pour les cellules */
+  border: 2px solid #000; 
   padding: 8px;
   text-align: left;
 }
 
 .custom-table th {
-  background-color: #c3e6cb; /* Couleur de fond pour l'en-tête */
+  background-color: #c3e6cb;
 }
 
 .custom-table td input {
-  border: none; /* Supprimer la bordure des champs de formulaire */
+  border: none; 
   width: 100%;
   box-sizing: border-box;
 }
 
 .container {
-  background-color: #f8f9fa; /* Fond gris clair pour la page */
+  background-color: #f8f9fa; 
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  color: #007bff; /* Couleur bleue pour le titre */
+  color: #007bff; 
 }
 
 .table {
@@ -81,5 +81,5 @@ h1 {
 }
 
 .btn-primary {
-  margin-top: 10px; /* Marge au-dessus du bouton */
+  margin-top: 10px; 
 }
