@@ -1,4 +1,3 @@
-// Possession.js
 export default class Possession {
   constructor(possesseur, libelle, valeur, dateDebut, dateFin, tauxAmortissement) {
     this.possesseur = possesseur;
