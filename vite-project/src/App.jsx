@@ -65,7 +65,7 @@ function App() {
     setData(updatedData);
     setResult(valeurs);
 
-    // Ajouter les résultats à l'historique et inverser l'ordre
+   
     setHistorique(prevHistorique => [
       ...prevHistorique,
       { date: additionalDate, valeurs }
