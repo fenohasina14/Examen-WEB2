@@ -40,7 +40,6 @@ function Graphique({ data }) {
                         tooltip: {
                             callbacks: {
                                 label: function (tooltipItem) {
-                                    // Utilisation des backticks pour les template literals
                                     return `${tooltipItem.dataset.label}: ${tooltipItem.raw.toLocaleString()}`;
                                 }
                             }
