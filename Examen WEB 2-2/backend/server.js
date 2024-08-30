@@ -57,13 +57,11 @@ app.post('/patrimoine/range', (req, res) => {
 });
 
 function calculatePatrimoineAt(date) {
-    // Implement your calculation logic here
-    return 0; // Example value
+    return 0; 
 }
 
 function calculatePatrimoineRange(type, dateDebut, dateFin, jour) {
-    // Implement your calculation logic here
-    return 0; // Example value
+    return 0; 
 }
 
 app.listen(port, () => {
