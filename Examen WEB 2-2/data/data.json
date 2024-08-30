@@ -1,0 +1,143 @@
+[
+    {
+        "model": "Personne",
+        "data": {
+            "possesseur": "Iloniaina"
+        }
+    },
+    {
+        "model": "Patrimoine",
+        "data": {
+            "possesseur": {
+                "nom": "Iloniaina"
+            },
+            "possessions": [
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "Ordinateur portable",
+                    "valeur": 1000000,
+                    "dateDebut": "2022-02-01T00:00:00.000Z",
+                    "type": "materiel informatique",
+                    "amortissement": 10
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "vêtemens",
+                    "valeur": 300000,
+                    "dateDebut": "2023-02-28T21:00:00.000Z",
+                    "type": "vestimentaire",
+                    "amortissement": 20
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "téléphone",
+                    "valeur": 800000,
+                    "dateDebut": "2019-09-19T00:00:00.000Z",
+                    "type": "vestimentaire",
+                    "amortissement": 20
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "casquette",
+                    "valeur": 20000,
+                    "dateDebut": "2019-09-19T00:00:00.000Z",
+                    "type": "vestimentaire",
+                    "amortissement": 20
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "argent en espece",
+                    "valeur": 50000,
+                    "dateDebut": "2024-7-12",
+                    "type": "ESPECE"
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "ma compte bancaire epargne",
+                    "valeur": 200000,
+                    "dateDebut": "2020-06-5",
+                    "type": "EPARGNE",
+                    "tauxDinteret": 5
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "ma compte bancaire courant",
+                    "valeur": 100000,
+                    "dateDebut": "2023-12-04",
+                    "type": "COURANT",
+                    "tauxDeDecouvert": -10000
+                }
+            ],
+            "flux": [
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "salaire",
+                    "valeur": 2500000,
+                    "dateDebut": "2024-08-04T00:00:00.000Z",
+                    "type": "ENTRANT"
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "revenu passif",
+                    "valeur": 500000,
+                    "dateDebut": "2024-08-03T21:00:00.000Z",
+                    "type": "ENTRANT"
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "petit boulot",
+                    "valeur": 50000,
+                    "dateDebut": "2024-08-03T21:00:00.000Z",
+                    "type": "ENTRANT"
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "nourriture",
+                    "valeur": 50000,
+                    "dateDebut": "2024-05-03T21:00:00.000Z",
+                    "type": "SORTANT"
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "loyer",
+                    "valeur": 500000,
+                    "dateDebut": "2024-08-03T21:00:00.000Z",
+                    "type": "SORTANT"
+                },
+                {
+                    "possesseur": {
+                        "nom": "Iloniaina"
+                    },
+                    "libelle": "entretien_voiture",
+                    "valeur": 450000,
+                    "dateDebut": "2024-08-03T21:00:00.000Z",
+                    "type": "SORTANT"
+                }
+            ]
+        }
+    }
+]
